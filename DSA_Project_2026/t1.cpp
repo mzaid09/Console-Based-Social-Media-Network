@@ -1,13 +1,14 @@
 #include<iostream>
+#include<string>
 using namespace std;
 int main() {
 
 	cout << "Hello Tando";
-	int lelo;
-	cin >> lelo;
+	string lelo;
+	getline(cin,lelo);
 
 	//return 0;
 
 	cout<<lelo;
-	hello hello
+
 }
