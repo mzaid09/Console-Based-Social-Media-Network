@@ -127,7 +127,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="global.cpp" />
+    <ClCompile Include="graph.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="notification.cpp" />
+    <ClCompile Include="post.cpp" />
     <ClCompile Include="t1.cpp" />
+    <ClCompile Include="user.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global.h" />
+    <ClInclude Include="graph.h" />
+    <ClInclude Include="notification.h" />
+    <ClInclude Include="post.h" />
+    <ClInclude Include="user.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
